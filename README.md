@@ -3,6 +3,7 @@
 - The tool used for automation testing is pytest. 
 - This is an entirely separate file from the project.
 - Branch to run: master
+- Install pytest before running
 
 ---
 
