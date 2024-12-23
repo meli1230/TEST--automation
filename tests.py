@@ -22,6 +22,7 @@ def test_multiplication(calculator):
     assert calculator.multiplication(-1, 1) == -1  # tests multiplication of a negative and a positive number
     assert calculator.multiplication(0, 5) == 0  # tests multiplication by 0
     assert calculator.multiplication(-2, -3) == 6  # tests multiplication of two negative numbers
+    assert calculator.multiplication(5, 0) == 0
 
 def test_division(calculator):
     assert calculator.division(6, 3) == 2  # tests division of 2 positive numbers
