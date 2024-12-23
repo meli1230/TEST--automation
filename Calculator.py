@@ -1,4 +1,5 @@
 class Calculator:
+    #Calculator class
     def addition(self, a, b):
         #sum of a and b
         return a + b
